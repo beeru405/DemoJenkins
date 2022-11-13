@@ -22,14 +22,10 @@ public class HelloAppTest {
 	    System.out.println("Before each test method");
 	  }
    
-//	@Test
-//	void testHello() {
-//		assertEquals(true, true);
-//	}
 	
 	@Test
 	void testHello1() {
-		assertEquals("Hello Pavan", "Hello Pavan");
+		assertEquals("Hi Pavan", "Hello Pavan");
 	}
 	
 	 @AfterEach
