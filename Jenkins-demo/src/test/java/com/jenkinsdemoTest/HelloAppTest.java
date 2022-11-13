@@ -12,15 +12,15 @@ import org.junit.jupiter.api.Test;
 
 public class HelloAppTest {
 	
-//	@BeforeAll
-//	  static void beforeAll() {
-//	    System.out.println("Before all Test Cases");
-//	  }
-//	
-//	@BeforeEach
-//	  void beforeEach() {
-//	    System.out.println("Before each test method");
-//	  }
+	@BeforeAll
+	  static void beforeAll() {
+	    System.out.println("Before all Test Cases");
+	  }
+	
+	@BeforeEach
+	  void beforeEach() {
+	    System.out.println("Before each test method");
+	  }
    
 //	@Test
 //	void testHello() {
@@ -32,14 +32,14 @@ public class HelloAppTest {
 		assertEquals("Hello Pavan", "Hello Pavan");
 	}
 	
-//	 @AfterEach
-//	  void afterEach() {
-//	    System.out.println("After each test method");
-//	  }
-//   
-//	 @AfterAll
-//	  static void afterAll() {
-//	    System.out.println("After all test cases");
-//	  }
+	 @AfterEach
+	  void afterEach() {
+	    System.out.println("After each test method");
+	  }
+   
+	 @AfterAll
+	  static void afterAll() {
+	    System.out.println("After all test cases");
+	  }
 	
 }
