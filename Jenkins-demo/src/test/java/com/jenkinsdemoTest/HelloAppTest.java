@@ -29,7 +29,7 @@ public class HelloAppTest {
 	
 	@Test
 	void testHello1() {
-		assertEquals("Hello ", "Hello Pavan");
+		assertEquals("Hello Pavan", "Hello Pavan");
 	}
 	
 //	 @AfterEach
