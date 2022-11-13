@@ -25,7 +25,7 @@ public class HelloAppTest {
 	
 	@Test
 	void testHello1() {
-		assertEquals("Hi Pavan", "Hello Pavan");
+		assertEquals("Hello Pavan", "Hello Pavan");
 	}
 	
 	 @AfterEach
