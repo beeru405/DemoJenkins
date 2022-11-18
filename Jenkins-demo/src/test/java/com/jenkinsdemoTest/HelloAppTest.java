@@ -34,7 +34,7 @@ public class HelloAppTest {
 	
 	@Test
 	void testString() {
-		assertEquals("Hello", checkString);
+		assertEquals("Hello Pavan", checkString);
 	}
 	
 	 @AfterEach
