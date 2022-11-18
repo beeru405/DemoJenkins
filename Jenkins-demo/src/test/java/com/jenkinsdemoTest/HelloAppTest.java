@@ -8,6 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import com.JenkinsDemo.HelloApp;
+
 
 
 public class HelloAppTest {
@@ -23,9 +25,16 @@ public class HelloAppTest {
 	  }
    
 	
+//	@Test
+//	void testHello1() {
+//		assertEquals("Hello Pavan", "Hello Pavan");
+//	}
+	
+	String checkString = HelloApp.testString();
+	
 	@Test
-	void testHello1() {
-		assertEquals("Hello", "Hello Pavan");
+	void testString() {
+		assertEquals("Hello Pavan", checkString);
 	}
 	
 	 @AfterEach
